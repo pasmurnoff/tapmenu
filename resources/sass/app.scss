@@ -1,0 +1,22 @@
+// resources/sass/app.scss
+$primary: #1a202c;
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0px
+}
+
+
+//header
+.header {
+    box-shadow: 0px 4px 28px 0px rgba(0, 0, 0, .08);
+
+    .wrap {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
